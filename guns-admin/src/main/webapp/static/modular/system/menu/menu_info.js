@@ -48,7 +48,7 @@ var MenuInfoDlg = {
  */
 MenuInfoDlg.clearData = function () {
     this.menuInfoData = {};
-}
+};
 
 /**
  * 设置对话框中的数据
@@ -59,7 +59,7 @@ MenuInfoDlg.clearData = function () {
 MenuInfoDlg.set = function (key, val) {
     this.menuInfoData[key] = (typeof value == "undefined") ? $("#" + key).val() : value;
     return this;
-}
+};
 
 /**
  * 设置对话框中的数据

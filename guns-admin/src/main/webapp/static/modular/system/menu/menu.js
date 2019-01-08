@@ -104,7 +104,7 @@ Menu.search = function () {
     queryData['level'] = $("#level").val();
 
     Menu.table.refresh({query: queryData});
-}
+};
 
 $(function () {
     var defaultColunms = Menu.initColumn();
